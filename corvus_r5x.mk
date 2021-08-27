@@ -36,6 +36,7 @@ PRODUCT_NAME := corvus_r5x
 PRODUCT_MODEL := Realme 5 Series
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_FACEUNLOCK_SUPPORTED := true
+scr_resolution := 720
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
