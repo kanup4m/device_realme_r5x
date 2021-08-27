@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_r5x.mk
+    $(LOCAL_DIR)/corvus_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_r5x-user \
-    lineage_r5x-userdebug \
-    lineage_r5x-eng
+    corvus_r5x-user \
+    corvus_r5x-userdebug \
+    corvus+_r5x-eng
