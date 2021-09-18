@@ -451,6 +451,10 @@ on post-fs-data
     chown radio radio /data/vendor/radio/db_check_done
     chmod 0660 /data/vendor/radio/db_check_done
 
+    # Restrict permissions to socket file 
+    # to hide Magisk & co.
+    chmod 440 /proc/net/unix
+    
     # qti-logkit data
     mkdir /data/vendor/qti-logkit/ 0771 system system
     mkdir /data/vendor/qti-logkit/shared-privileged/ 2770 system system
