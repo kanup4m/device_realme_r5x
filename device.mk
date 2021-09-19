@@ -217,6 +217,12 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti.vendor \
     libqti_vndfwk_detect.vendor
 
+
+# Google Photos Unlimited
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/google/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
+
+
 # GPS / Location
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl-qti \
