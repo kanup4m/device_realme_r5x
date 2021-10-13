@@ -405,6 +405,9 @@
          that can be set by the user. -->
      <integer name="config_screenBrightnessDim">4</integer>
 
+     <!-- Amount of time in ms the user needs to press the relevant keys to trigger the screenshot chord -->
+    <integer name="config_screenshotChordKeyTimeout">0</integer>
+
     <!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
          The N entries of this array define N  1 zones as follows:
          Zone 0:        0 <= LUX < array[0]
