@@ -222,6 +222,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/google/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
 
+# Gallery
+PRODUCT_PACKAGES += \
+    GalleryGo
 
 # GPS / Location
 PRODUCT_PACKAGES += \
